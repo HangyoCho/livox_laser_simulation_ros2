@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>livox_laser_simulation_ros2</name>
+  <version>0.0.0</version>
+  <description>The livox_laser_simulation ros2 package</description>
+
+  <!-- Maintainer information -->
+  <maintainer email="fins0305@gmail.com">Hangyo Cho</maintainer>
+
+  <!-- License information -->
+  <license>TODO</license>
+
+  <!-- Build tool dependencies -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Build dependencies -->
+  <build_depend>tf2_ros</build_depend>
+  <build_depend>livox_ros_driver2</build_depend>
+ 
+  <!-- Execution dependencies -->
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>livox_ros_driver2</exec_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+
+  <!-- Export section -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+<exec_depend>rosidl_default_runtime</exec_depend>
+
+<member_of_group>rosidl_interface_packages</member_of_group>
+</package>
